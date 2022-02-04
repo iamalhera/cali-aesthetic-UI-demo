@@ -4,3 +4,13 @@
     align-items: center;
 
   }
+.component-container-row{
+    padding: 1.6rem;
+    margin: 3rem;
+    max-width: 80%;
+    border: 1px solid var(--secondary-text);
+    border-radius: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}

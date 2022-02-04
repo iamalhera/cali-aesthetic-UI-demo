@@ -15,7 +15,26 @@
   }
 
   body{
-    font-family: sans-serif;
     font-size: 1.6rem;
-  
+  }
+
+  :root{
+      --ca-primary-color-darker : #4F1E5C ;
+      --ca-primary-color : #762D8B ;
+      --ca-primary-color-lighter : #A846C3 ;
+      --ca-secondary-color : #65B891 ;
+      --ca-primary-text : #100c08 ;
+      --ca-secondary-text : #282c35 ;
+      --ca-light-bg : #F1DAC4 ;
+      --alert-primary-text: #084298;
+      --alert-primary-bg: #cfe2ff;
+      --success-text: #0f5132;
+      --success-bg: #d1e7dd;
+      --danger-text: #842029;
+      --danger-bg: #f8d7da;
+      --warning-text: #664d03;
+      --warning-bg: #fff3cd;
+      --online-color: #1b7052;
+      --offline-color: #dc3545;
+      
   }
