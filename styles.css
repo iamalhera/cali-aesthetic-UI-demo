@@ -1,0 +1,17 @@
+@import url("/src/cali-UI.css");
+
+body{
+    background: #ddc4c4;
+    font-family:  sans-serif;
+    font-size: 1.6rem;
+    
+}
+.landing-page-button button{
+    padding: 1rem;
+    border:none;
+    background: #762D8B;
+    color : white ;
+    border-radius: 0.5rem;
+    margin-top : 36rem ;
+    cursor: pointer;
+}

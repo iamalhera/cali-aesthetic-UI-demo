@@ -2,3 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');  /* Primary Font*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); /* Secondary Font */
 
+
+/* CSS Files */
+@import url('/src/components/design-guide.css');
+@import url('/src/components/typography.css');
+@import url('/src/components/utils.css');
+@import url('/src/components/avatar/avatar.css');
+@import url('/src/components/alert/alert.css');
+@import url('/src/components/badge/badge.css');
+@import url('/src/components/button/button.css');
