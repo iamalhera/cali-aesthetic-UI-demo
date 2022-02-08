@@ -103,10 +103,10 @@ font-size : 2.0rem ;
 font-family: 'Montserrat', sans-serif;
 color : var(--ca-secondary-text);
 }
-.bg-w{
+.background-white{
   padding : 1rem ;
 }
-.bg-ow{
+.background-offwhite{
   background-color : var(--light-bg);
   padding : 1rem ;
   border-radius : 1rem ;
