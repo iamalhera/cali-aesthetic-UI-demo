@@ -8,15 +8,75 @@
     <title>Cali-Aesthetics UI</title>
 </head>
 <body>
-    <!-- ------------ component : avatar ---------------- -->
-    <section>
-    <div class="component-description">
-        <h2>Avatar</h2>
+    <!------------------------ Header ----------------------------------->
+        <header>
+            <div class="header-container">
+                <div class="heading-header">
+                <h1> Cali-Aesthetics</h1>
+                </div>
+                <div class="header-links">
+                <a class="link-primary">Home</a>
+                <a class="link-primary">Docs</a>
+                </div>
+            </div>
+          </header>
+
+
+    <!-------------------------Side Bar ----------------------------->
+    <aside>
+        <h3>Components</h3>
+        <a class="active-tab" href="./avatar.html">Avatar</a>
+        <a href="/src/components/alert/alert.html">Alert</a>
+        <a href="/src/components/badge/badge.html">Badge</a>
+        <a href="/src/components/button/button.html">Button</a>
+        <a href="#">Card</a>
+        <a href="#">Input</a>
+        <a href="#">Form</a>
+        <a href="#">Snackbar</a>
+      </aside>
+
+
+
+      <main>
+
+         <!-- ------------ component : avatar ---------------- -->
+
+    <div class=" main-container padding-md">
+            <div class="headline">
+            <h1>Avatar</h1>
+            <div class="description">
+                The Avatar component is used to represent a user, and displays the profile picture or initials.
+            </div>
+            </div>
+        
+        <section class="background-white">
+            <h3>Exampes of Image Avatar</h3>
+            <div class="section-description ">
+                Avatars are available in three different sizes. Large avatar, Medium avatar and Small avatar. Here img-rounded applies 50% of border radius to avatar. You can use these according to your need.
+            </div>
+            <div class="container-row container-avatar">
+            <img src="/src/assets/alhera-smiling-pic.jpeg" alt="avatar" class="avatar-lg img-rounded"/>
+            <img src="/src/assets/alhera-2.jpg" alt="avatar" class="avatar-md img-rounded"/>
+            <img src="/src/assets/alhera-3.jpg" alt="avatar" class="avatar-sm img-rounded"/>
+            </div>
+        </section>
+        <section class="background-offwhite">
+            <h3>Examples of Text Avatar</h3>
+            <div class="section-description">
+            You can use Initial text as Avatar for users profile. By adding text-avatar
+            </div>
+
+            <div class="container-row container-avatar">
+                <div class="avatar-lg img-rounded text-avatar">L</div>
+                <div class="avatar-md img-rounded text-avatar">M</div>
+                <div class="avatar-sm img-rounded text-avatar">S</div>
+            </div>
+        </section>
     </div>
 
-    <!-- 3 sizes for avatar -->
-    
-    </section>
+
+      </main>
+
 
     
 </body>

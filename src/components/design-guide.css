@@ -14,18 +14,17 @@
     scroll-behavior: smooth;
   }
 
-  body{
-    font-size: 1.6rem;
-  }
 
   :root{
-      --ca-primary-color-darker : #4F1E5C ;
       --ca-primary-color : #762D8B ;
       --ca-primary-color-lighter : #A846C3 ;
       --ca-secondary-color : #65B891 ;
       --ca-primary-text : #100c08 ;
-      --ca-secondary-text : #282c35 ;
-      --ca-light-bg : #F1DAC4 ;
+      --ca-secondary-text : #35383f ;
+      --ca-light-bg : #ECECEC ;
+      --light-bg : #F5F5F5;
+      --border-color : #979292 ;
+      --white-color : white ;
       --alert-primary-text: #084298;
       --alert-primary-bg: #cfe2ff;
       --success-text: #0f5132;
