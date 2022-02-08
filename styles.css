@@ -1,6 +1,10 @@
-
+:root{
+    --white-color : white ;
+    --light-bg : #F5F5F5;
+    --ca-primary-color : #762D8B ;
+}
 body{
-    background: #ddc4c4;
+    background: var(--light-bg);
     font-family:  sans-serif;
     font-size: 1.6rem;
     
@@ -11,10 +15,13 @@ main{
     align-items: center;
     justify-content: center;
 } 
+a{
+    text-decoration: none;
+}
 .landing-page-button button{
     padding: 1rem;
-    border:none;
-    background: var(--ca-light-bg);
+    border: none;
+    background: var(--ca-primary-color);
     color : var(--white-color) ;
     border-radius: 0.5rem;
     cursor: pointer;
