@@ -1,0 +1,57 @@
+@import url('/src/components/utils.css');
+@import url('/src/components/avatar/avatar.css');
+
+.badge-container{
+    position : relative ;
+}
+.badge-status {
+    position: absolute;
+    min-width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    border: 2px solid var(--white-color);
+    right: 2.5rem;
+    bottom: 2.5rem;
+}
+
+.status-online {
+    background-color: var(--status-online);
+}
+.status-offline {
+    background-color: var(--status-offline);
+    right: 1em;
+}
+
+.status-away {
+    background-color: var(--status-away);
+    right: 1rem;
+    bottom : 1rem;
+}
+
+.badge-primary{
+    position : absolute ;
+    background-color : var(--ca-primary-color-lighter);
+    color : var(--white-color);
+    padding : 0.6rem ;
+    border-radius : 2rem ;
+    top : 10px ;
+    left : 610px ;
+}
+.badge-red{
+    position : absolute ;
+    background-color : red;
+    padding : 0.6rem ;
+    color : var(--white-color);
+    border-radius : 2rem ;
+    top : 3px ;
+    left : 340px ;
+}
+.badge-light{
+    position : absolute ;
+    background-color : var(--ca-light-bg);
+    padding : 0.5rem ;
+    border : 1px solid black   ;
+    border-radius : 2rem ;
+    top : 2px ;
+    left : 295px ;
+}
