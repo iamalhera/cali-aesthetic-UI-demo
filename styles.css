@@ -14,8 +14,8 @@ main{
 .landing-page-button button{
     padding: 1rem;
     border:none;
-    background: #762D8B;
-    color : white ;
+    background: var(--ca-light-bg);
+    color : var(--white-color) ;
     border-radius: 0.5rem;
     cursor: pointer;
     display: flex;
