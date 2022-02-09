@@ -1,0 +1,105 @@
+@import url('/src/components/utils.css');
+
+.container-row{
+    justify-content: space-evenly;
+    
+}
+.btn{
+    height : 5rem ;
+    width : 13rem ;
+    font-size : 1.5rem ;
+    font-weight : bold  ;
+    border-radius: 1rem ;
+    border : none ;
+    cursor: pointer;
+}
+.btn-primary{
+    color : var(--white-color) ;
+    background-color: var(--ca-primary-color);
+}
+.btn-primary:hover{
+    background-color: var(--ca-primary-color-lighter);
+    font-size : 1.8rem ;
+}
+.btn-success{
+    color : var(--white-color);
+    background-color : var(--success-text);
+}
+.btn-success:hover{
+    background-color: var(--online-color);
+    font-size : 1.8rem ;
+}
+
+.btn-danger{
+    color : var(--white-color) ;
+    background-color : var(--danger-text) ;
+}
+.btn-danger:hover{
+    background-color : var(--danger-bg);
+    font-size : 1.8rem ;
+}
+.btn-dark{
+    color : var(--white-color);
+    background-color: var(--ca-primary-text);
+}
+.btn-dark:hover{
+    background-color: var(--white-color);
+    color : var(--ca-primary-text) ;
+    border : 1.5px solid var(--ca-primary-text);
+    font-size : 1.8rem ;
+}
+.btn-light{
+    background-color : var(--white-color);
+    color : var(--ca-primary-text);
+    border : 1.5px solid var(--ca-primary-text);
+
+}
+.btn-light:hover{
+    background-color : var(--ca-primary-text);
+    color : var(--white-color);
+    font-size : 1.8rem ;
+    border : none ;
+}
+.link-btn{
+  color: var(--ca-secondary-color);
+  text-align: center;
+  font-size:2.2rem;
+  padding: 0.8rem;
+  text-decoration: underline solid var(--ca-primary-color);
+  text-underline-position: under;
+}
+.link-btn:hover{
+    color: var(--ca-primary-color);
+}
+
+.btn-icon{
+    height : 5rem ;
+    width : 13rem ;
+    font-size : 1.5rem ;
+    font-weight : bold  ;
+    border-radius: 1rem ;
+    border : none ;
+    cursor: pointer;
+    color : var(--white-color) ;
+    background-color: var(--danger-text);
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+}
+.btn-icon:hover{
+    font-size : 1.8rem ;
+    border : 1.5px solid var(--danger-text);
+    background-color : var(--white-color);
+    color : var(--danger-text);
+}
+.fas.fa-trash{
+    margin-right : 5px;
+}
+.btn-topup{
+    color : var(--ca-primary-color);
+    font-size : 5rem ;
+    cursor: pointer;
+}
+.btn-topup:hover{
+    color : var(--ca-primary-color-lighter);
+}
