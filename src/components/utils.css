@@ -121,6 +121,10 @@ section h3{
   font-family: 'Montserrat', sans-serif;
   color : var(--ca-secondary-text);
 }
+.highlighted{
+  color : var(--ca-primary-color);
+  font-style: italic;
+}
 
 .container-row{
   padding: 2rem;
@@ -144,6 +148,8 @@ section h3{
   flex-direction: column;
   flex-wrap: wrap;
   gap: 1.5rem;
+
+
 }
 /*Main Ends*/
 
