@@ -35,5 +35,9 @@
       --warning-bg: #fff3cd;
       --online-color: #1b7052;
       --offline-color: #dc3545;
+
+      --status-online : #008000 ;
+      --status-offline : #D22B2B ;
+      --status-away : #ffff31;
       
   }
