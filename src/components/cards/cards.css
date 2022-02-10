@@ -1,0 +1,26 @@
+@import url('/src/components/utils.css');
+@import url('/src/components/badge/badge.css') ;
+
+.card{
+    border-radius: 1rem;
+    box-shadow: 0px 1px 10px rgb(146 140 140 / 50%);
+}
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+.img-responsive{
+width : 100% ;
+height : 100% ;
+}
+
+.card-description{
+    display : flex ;
+    flex-direction: column;
+    justify-content : space-around ;
+    
+}
