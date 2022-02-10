@@ -96,6 +96,12 @@
 .card-dismiss{
     margin-right : 20px;
     font-weight: bolder;
+    font-size : 3rem;
+    cursor:pointer;
+    
+}
+.card-dismiss:hover{
+    color : var(--ca-primary-color)
 }
 .card-vertical {
     max-width : 30% ;
