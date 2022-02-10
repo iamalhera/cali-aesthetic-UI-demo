@@ -98,7 +98,12 @@
 .btn-topup{
     color : var(--ca-primary-color);
     font-size : 5rem ;
+    border-radius : 50% ;
     cursor: pointer;
+
+}
+.fas.fa-arrow-alt-circle-up{
+    box-shadow: 10px 20px 20px -10px rgba(0.6,0.6,0.6,0.7);
 }
 .btn-topup:hover{
     color : var(--ca-primary-color-lighter);
