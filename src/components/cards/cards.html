@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/components/cards/cards.css">
+    <title>Alert</title>
+    <script src="https://kit.fontawesome.com/cb91afed1c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!------------------------ Header ----------------------------------->
+    <header>
+        <div class="header-container">
+            <div class="heading-header">
+                <h1> Cali-Aesthetics</h1>
+            </div>
+            <div class="header-links">
+                <a class="link-primary">Home</a>
+                <a class="link-primary">Docs</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-------------------------Side Bar ----------------------------->
+    <aside>
+        <h3>Components</h3>
+        <a href="/src/components/avatar/avatar.html">Avatar</a>
+        <a href="/src/components/alert/alert.html">Alert</a>
+        <a href="/src/components/badge/badge.html">Badge</a>
+        <a href="/src/components/button/button.html">Button</a>
+        <a href="/src/components/image/image.html">Images</a>
+        <a class="active-tab" href="#">Card</a>
+        <a href="#">Input</a>
+        <a href="#">Form</a>
+        <a href="#">Snackbar</a>
+    </aside>
+
+
+
+    <main>
+
+        <!-- ------------ component : cards ---------------- -->
+
+        <div class=" main-container padding-md">
+            <div class="headline">
+                <h1>Cards</h1>
+                <div class="description">
+                    Cards are used as a container where related information are stored at one place. There are different
+                    types of card which can be used in different scenarios like horizontal card, vertical card, card
+                    with badge, card with text overlay, card with close button etc.
+                </div>
+            </div>
+
+            <section class="background-white">
+                <h3>Example of Horizontal and Vertical Cards</h3>
+                <div class="section-description ">
+                    There are two cards, one is a basic horizontal card with a dismiss button and the second is a basic vertical card with a badge.
+                </div>
+                <div class="container-column">
+                    <!-- card horizontal starts -->
+                    <div class="card card-horizontal">
+                        <div class="card-image-horizontal">
+                            <img src="/src/assets/paralettes.jpg" alt="1 pair of paralettes" class="img-responsive" />
+                        </div>
+                        <div class="card-description">
+                            <div class="description-wrap">
+                                <div class="card-description-primary">
+                                    <p class="card-title">A pair of Paralettes</p>
+                                    <p class="card-primary-text">by Calisthetics</p>
+                                    <p class="card-price">Price : 500/-</p>
+                                    <div class="star-badge">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="card-dismiss">
+                                    <i class="far fa-times-circle"></i>
+                                </div>
+                            </div>
+                            <p class="product-description">These are really great parallettes. Very sturdy, lightweight
+                                and get a good grip on these.</p>
+                            <div class="card-cta">
+                                <i class="far fa-heart"></i>
+                                <button class="btn-cta">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- card horizontal ends -->
+                    <!-- card vertical starts -->
+                    <div class="card card-vertical">
+                        <div class="card-image-vertical">
+
+                            <img src="/src/assets/paralettes.jpg" alt="1 pair of paralettes" class="img-responsive">
+                            <div class="card-badge">New</div>
+                            </img>
+                        </div>
+                        <div class="card-description">
+                            <div class="card-description-primary">
+                                <p class="card-title">A pair of Paralettes</p>
+                                <p class="card-primary-text">by Calisthetics</p>
+                                <p class="card-price">Price : 500/-</p>
+                                <div class="star-badge">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="product-description">These are really great parallettes</p>
+                            <div class="card-cta">
+                                <i class="far fa-heart"></i>
+                                <button class="btn-cta">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Add to Cart
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- card vertical ends -->
+
+                </div>
+            </section>
+
+            <section class="background-offwhite">
+                <h3>Example of Card with text overlay and text only card </h3>
+                <div class="section-description ">
+                    Below are two other variants of card one for displaying a card with text overlay and the second is
+                    text only card.
+                </div>
+                <div class="container-row">
+                    <!-- card text overlay starts -->
+                    <div class="card card-text-overlay ">
+                        <div class="card-image-vertical">
+                            <img src="/src/assets/calisthenics_for_lifters_-_1000x500.jpg" alt="man doing pushups"
+                                class="img-responsive">
+                            <div class="overlay-text">
+                                Ultimate Goal of fitnesss should be doing 50 pushups in one go
+                            </div>
+                            </img>
+                        </div>
+                    </div>
+
+                    <!-- card text overlay ends -->
+                    <!-- card text only starts -->
+                    <div class="card card-text-only ">
+                                <p class="card-title">Pull-Ups: A test of strength</p>
+                                <p class="product-description">Fitness Expert advice to do atleast 10 pull-ups a day.</p>
+                                <div class="card-cta-textonly">
+                                    <i class="far fa-heart"></i>
+                                    <i class="fas fa-share-square"></i>
+                                    <button class="btn-cta">Read More</button>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                    </div>
+                    <!-- card text-only ends -->
+
+                </div>
+            </section>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
