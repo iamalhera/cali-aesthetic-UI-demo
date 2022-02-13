@@ -43,39 +43,127 @@
 
     <main>
 
-        <!-- ------------ component : button ---------------- -->
+        <!-- ------------ component : list ---------------- -->
         <div class=" main-container padding-md">
             <div class="headline">
-                <h1>Button</h1>
+                <h1>List</h1>
                 <div class="description">
-                    Buttons are used to perform actions on user's click. We have range of buttons which you can use like solid buttons, outline buttons and icon buttons based on different scenarios and their states.
-                </div>
+                    Lists can be use for so many things. Such as Listing some items, Stacked list, Space list,
+                    Navigation, etc. We have different types of list as mentioned below. </div>
             </div>
 
             <section class="background-white">
-                <h3>Examples of Primary Button</h3>
+                <h3>Example of ordered list</h3>
                 <div class="section-description ">
-                    Whenever you want your user's attention use Primary Buttons for call to Action. 
+                    Ordered list can be used for listing items but in specific order. To use this component you can add
+                    these classes according to your needs Even You can reverse the order of ordered list, add reversed
+                    attribute to ol element.
                 </div>
                 <div class="container-row ">
-                    <button class="btn btn-primary">Primary</button>
-                    <button class="btn btn-success">Success</button>
-                    <button class="btn btn-danger">Danger</button>
-                    <button class="btn btn-dark">Dark Outline</button>
-                    <button class="btn btn-light">Light Outline</button>
+                    <div>
+                        <ol class="text-size-lg type-number margin-left-sm">
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <ol class="text-size-lg type-A margin-left-sm">
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <ol class="text-size-lg type-a margin-left-sm">
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <ol class="text-size-lg upper-roman margin-left-sm">
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <ol class="text-size-lg lower-roman margin-left-sm">
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                        </ol>
+                    </div>
+
                 </div>
             </section>
             <section class="background-offwhite">
-                <h3>Examples of other variants of button</h3>
+                <h3>Examples of unordered list</h3>
                 <div class="section-description">
-                    We have some secondary kinds of button like link, icon button and floating action button.
+                    We have also Unordered list. You can also list items using this. We mentioned some of list of types
+                    below.
                 </div>
                 <div class="container-row ">
-                    <a class="link-btn"href="#">Link</a>
-                    <div class="btn-icon"><i class="fas fa-trash"></i> Delete</div>
-                    <div class="btn-topup"><i class="fas fa-arrow-alt-circle-up"></i></div>
+                    <div>
+                        <ul class="type-bullet text-size-lg margin-left-sm">
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <ul class="type-circle text-size-lg margin-left-sm">
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            </ol>
+                    </div>
+
+                    <div>
+                        <ul class="type-square text-size-lg margin-left-sm">
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            <li>Item </li>
+                            </ol>
+                    </div>
                 </div>
-                
+
+            </section>
+            <section class="background-white">
+                <h3>Example Of Stacked List (Notification Page)
+                </h3>
+                <div class="section-description ">
+                    Below is and example of stacked list which can be used to display notifications.
+                    You can add the desired element inside the li tag to stack it as list item 
+                </div>
+                <div class="container-column">
+                    <li class="stacked-list-item" >
+                        <img src="/src/assets/pull-ups.jpg" alt="time for pullups" class="list-img">
+                        <div class="list-item-content text-size-md">You Daily Quota of 15 Pull-Ups is left</div>
+                    </li>
+                    <li class="stacked-list-item" >
+                        <img src="/src/assets/calisthenics_for_lifters_-_1000x500.jpg" alt="time for pushups" class="list-img">
+                        <div class="list-item-content text-size-md">You Daily Quota of 20 Push-Ups is left</div>
+                    </li>
+                    <li class="stacked-list-item" >
+                        <img src="/src/assets/running.jpg" alt="time for running" class="list-img">
+                        <div class="list-item-content text-size-md">You Daily Quota of running 1 mile is left</div>
+                    </li>
+                </div>
             </section>
         </div>
 
