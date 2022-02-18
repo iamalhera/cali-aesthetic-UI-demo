@@ -31,7 +31,7 @@ list-style-type:circle
     align-items: center;
 }
 .stacked-list-item{
-        max-width: 500px;
+        width: 300px;
         display: flex;
         background-color: var(--ca-light-bg);
         border: 1px solid black;
