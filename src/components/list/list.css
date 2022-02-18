@@ -1,0 +1,53 @@
+@import url('/src/components/utils.css');
+.type-number{
+list-style-type: default;
+}
+.type-A{
+list-style-type: upper-alpha;
+}
+.type-a{
+list-style-type: lower-alpha;
+}
+.upper-roman{
+list-style-type: upper-roman;
+}
+.lower-roman{
+list-style-type: upper-roman;
+}
+ol{
+    padding : 1rem ;
+}
+.type-bullet{
+list-style-type: default;
+}
+.type-square{
+list-style-type: square;
+}
+.type-circle{
+list-style-type:circle
+}
+
+.container-column{
+    align-items: center;
+}
+.stacked-list-item{
+        max-width: 500px;
+        display: flex;
+        background-color: var(--ca-light-bg);
+        border: 1px solid black;
+        padding: 1rem;
+        box-shadow: var(--box-shadow);
+        border-radius: 4px;
+        cursor: pointer;
+}
+.list-img {
+    width: 4.5em;
+    height: 4.5em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
+.list-item-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

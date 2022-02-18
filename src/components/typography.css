@@ -26,4 +26,13 @@
     font-size: 2.5rem ;
 }
 
-
+/* margin */
+.margin-left-sm{
+    margin-left : 1rem ;
+}
+.margin-left-md{
+    margin-left: 1.5rem;
+}
+.margin-left-lg{
+    margin-left : 2.5rem ;
+}
