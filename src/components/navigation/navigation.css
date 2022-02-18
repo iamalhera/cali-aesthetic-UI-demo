@@ -1,9 +1,11 @@
 @import url('/src/components/utils.css');
-navigation{
-width : 95% ;
-}
 
+
+.nav-1{
+    width : 100% ;
+}
 .nav{
+    width : 95% ;
     display: flex;
     flex-wrap : wrap ;
     justify-content: space-between;
