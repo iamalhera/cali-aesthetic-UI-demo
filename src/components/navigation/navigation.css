@@ -1,0 +1,33 @@
+@import url('/src/components/utils.css');
+
+
+.nav-1{
+    width : 100% ;
+}
+.nav{
+    width : 95% ;
+    display: flex;
+    flex-wrap : wrap ;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    color : var(--ca-primary-color);
+}
+.input-search{
+    padding : 5px 3rem ;
+    border-radius : 5px ;
+    border: 1px solid black ;
+    font-size : 1.5rem;
+}
+.badge-container{
+    color : var(--ca-primary-color);
+}
+
+.nav-right{
+display : flex ;
+flex-direction : row ;
+justify-content : space-between ;
+align-items: center;
+gap: 3rem ;
+}
