@@ -1,10 +1,10 @@
-# Calisthetics UI
+# oebaUI
 
-Calisthetics UI is an open source UI component library created using HTML, CSS made for building fast, responsive and attractive websites in minutes so that you spend more time on the logic and less on styling. You can simply copy the component you want to use and integrate it into your web application.
+oebaUI is an open source UI component library created using HTML, CSS made for building fast, responsive and attractive websites in minutes so that you spend more time on the logic and less on styling. You can simply copy the component you want to use and integrate it into your web application.
 
 ## Usage
 
-To import Calisthetics UI in your Project paste the below code in the head tag of your html document and you are good to go.
+To oebaUI in your Project paste the below code in the head tag of your html document and you are good to go.
 
 ```html
 <link rel="stylesheet" href="https://calisthetics-ui.netlify.app/src/cali-ui.css" />
@@ -45,4 +45,4 @@ To import Calisthetics UI in your Project paste the below code in the head tag o
   - Navigation for E-commerce
 - [Grid](https://calisthetics-ui.netlify.app/src/components/navigation/navigation.html)
   - (1x2) Grid
-  - (1x3) Grid
+  - (1x3) Grid 
