@@ -41,7 +41,7 @@
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
-.gutter-vh-xxl {
+.gutter-vt-xxxl {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -81,6 +81,10 @@
 }
 .gutter-right-auto{
   margin-right : auto;
+}
+.gutter-lr-auto{
+  margin-left : auto;
+  margin-right: auto;
 }
 
 /************************ Vertical Padding ************************/
@@ -323,9 +327,14 @@
 }
 
 
-/********************************** fixed positioning *******************************/
+/********************************** positioning *******************************/
 .fixed-top {
   position: fixed;
   top: 0;
   left:0;
+}
+.pos-sticky{
+  position : sticky;
+  /* position: -webkit-sticky; */
+  top: 0 ;
 }

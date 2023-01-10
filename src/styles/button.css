@@ -1,110 +1,30 @@
-@import url('/src/components/utils.css');
-
-.container-row{
-    justify-content: space-evenly;
-    
-}
 .btn{
-    height : 5rem ;
-    width : 13rem ;
-    font-size : 1.5rem ;
-    font-weight : bold  ;
-    border-radius: 1rem ;
-    border : none ;
-    cursor: pointer;
+    padding:1rem 4rem;
+    border: none;
+    border-radius : 2rem;
 }
-.btn-primary{
-    color : var(--white-color) ;
-    background-color: var(--ca-primary-color);
+.btn-primary-solid{
+    color: var(--primary-bg);
+    background-color: var(--primary-color); 
 }
-.btn-primary:hover{
-    background-color: var(--ca-primary-color-lighter);
-    font-size : 1.8rem ;
+.btn-primary-outline{
+    color : var(--primary-color);
+    background-color: var(--primary-bg);
+    border: 2px solid var(--primary-color)
 }
-.btn-success{
-    color : var(--white-color);
-    background-color : var(--success-text);
+.btn-primary-outline:hover{
+    background-color : var(--secondary-color);
+    color : var(--primary-bg);
 }
-.btn-success:hover{
-    background-color: var(--online-color);
-    font-size : 1.8rem ;
-}
-
-.btn-danger{
-    color : var(--white-color) ;
-    background-color : var(--danger-text) ;
-}
-.btn-danger:hover{
-    background-color : var(--danger-bg);
-    font-size : 1.8rem ;
-}
-.btn-dark{
-    color : var(--white-color);
-    background-color: var(--ca-primary-text);
-}
-.btn-dark:hover{
-    background-color: var(--white-color);
-    color : var(--ca-primary-text) ;
-    border : 1.5px solid var(--ca-primary-text);
-    font-size : 1.8rem ;
-}
-.btn-light{
-    background-color : var(--white-color);
-    color : var(--ca-primary-text);
-    border : 1.5px solid var(--ca-primary-text);
-
-}
-.btn-light:hover{
-    background-color : var(--ca-primary-text);
-    color : var(--white-color);
-    font-size : 1.8rem ;
-    border : none ;
-}
-.link-btn{
-  color: var(--ca-secondary-color);
-  text-align: center;
-  font-size:2.2rem;
-  padding: 0.8rem;
-  text-decoration: underline solid var(--ca-primary-color);
-  text-underline-position: under;
-}
-.link-btn:hover{
-    color: var(--ca-primary-color);
-}
-
 .btn-icon{
-    height : 5rem ;
-    width : 13rem ;
-    font-size : 1.5rem ;
-    font-weight : bold  ;
-    border-radius: 1rem ;
-    border : none ;
-    cursor: pointer;
-    color : var(--white-color) ;
-    background-color: var(--danger-text);
-    display : flex ;
-    align-items : center ;
-    justify-content : center ;
-}
-.btn-icon:hover{
-    font-size : 1.8rem ;
-    border : 1.5px solid var(--danger-text);
-    background-color : var(--white-color);
-    color : var(--danger-text);
-}
-.fas.fa-trash{
-    margin-right : 5px;
-}
-.btn-topup{
-    color : var(--ca-primary-color);
-    font-size : 5rem ;
-    border-radius : 50% ;
-    cursor: pointer;
 
 }
-.fas.fa-arrow-alt-circle-up{
-    box-shadow: 10px 20px 20px -10px rgba(0.6,0.6,0.6,0.7);
+.btn-secondary{
+
 }
-.btn-topup:hover{
-    color : var(--ca-primary-color-lighter);
+.btn-primary-float{
+
+}
+.btn-secondary-float{
+
 }
