@@ -1,0 +1,7 @@
+nav{
+    background-color: var(--primary-bg);
+}
+.nav-icon{
+    width : 5rem;
+    height : 5rem;
+}

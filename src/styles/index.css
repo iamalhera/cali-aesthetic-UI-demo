@@ -1,0 +1,7 @@
+.main-section-right img{
+    width : 35rem;
+    height : 30rem ;
+}
+.color-sec{
+    color : var(--secondary-color);
+}

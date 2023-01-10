@@ -24,7 +24,7 @@ h6, .h6{
 }
 
 p, .p, li{
-    font-size : 1.1rem;
+    font-size : 1.25rem;
     font-weight : 500;    
 }
 a, .code, code{
@@ -77,12 +77,15 @@ a:hover{
 }
 
 
-/************************ text styling ************************/
+/************************ text & list styling ************************/
 .text-underline {
     text-decoration: underline;
 }
 .text-strike {
     text-decoration: line-through;
+}
+.list-style-none{
+    list-style:none;
 }
 
 
