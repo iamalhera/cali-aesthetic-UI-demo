@@ -24,7 +24,7 @@ h6, .h6{
 }
 
 p, .p, li{
-    font-size : 1.25rem;
+    font-size : 1.1rem;
     font-weight : 500;    
 }
 a, .code, code{
@@ -32,6 +32,7 @@ a, .code, code{
     font-weight : 500;
     color : var(--primary-color);
     cursor: pointer;
+    display: inline-block;
 }
 a:hover{
     color : var(--secondary-color);
