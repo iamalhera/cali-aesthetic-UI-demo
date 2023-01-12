@@ -52,6 +52,8 @@ html{
     --primary-bg : #000000;
     --primary-color : #ffffff;
     --primary-color-dark : #c6bfbf;
+    --primary-color-darker : rgb(95, 95, 95);
+    --primary-color-darkest : #171717;
     --tertiary-color : #4381C1;
     --secondary-color :  #FFAA33;
     --shadow-dark: #4c4c4b0d;
