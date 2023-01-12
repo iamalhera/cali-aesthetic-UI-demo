@@ -37,6 +37,21 @@ a, .code, code{
 a:hover{
     color : var(--secondary-color);
 }
+.doc-link{
+    color : var(--primary-color-darker);
+}
+.doc-link:hover{
+    color : var(--secondary-color);
+}
+.highlighted-text{
+    color : var(--secondary-color);
+}
+.active-tab{
+    font-size: 1.5rem;
+    background-color: var(--primary-color-darkest);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
 
 
 /************************ text size ************************/
