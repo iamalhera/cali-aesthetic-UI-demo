@@ -1,0 +1,24 @@
+.docs-main-section{
+    max-width : 80rem ;
+    margin-left : 17rem;
+}
+.docs-main-section > section{
+    margin-top : 3.5rem;
+    margin-bottom : 3.5rem ;
+}
+section > p {
+    font-weight: normal !important;
+}
+.aside-navbar {
+    position: fixed;
+    min-width: 15rem;
+    overflow-y : scroll ;
+    height: 85vh;
+}
+.aside-navbar ul li  a{
+    margin : 0.5rem 0rem ;
+    padding : 0.75rem 5rem ;
+}
+.component-body aside ul li {
+    margin-left : 1.5rem ;
+}
