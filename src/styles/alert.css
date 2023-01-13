@@ -1,34 +1,44 @@
-@import url('/src/components/utils.css');
-
 .alert {
-    font-size: 2.0rem;
-    font-family: 'Montserrat', sans-serif;
-    padding: 1.2rem;
-    margin: 1rem 0;
-    border-radius: 1rem;
-    width : 100% ;
+    margin: 1rem 1rem;
+    padding: 0.75rem 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 3px rgb(168 163 163);
+    font-size : 1.1rem ;
+    font-weight: 700;
 }
-
-.primary-alert {
-    background-color: var(--ca-primary-color-lighter);
-    color: var(--white-color);
+.alert-success{
+    color : var(--success-dark);
+    background-color : var(--success-light);
 }
-
-.successfull-alert {
-    background-color: var(--success-bg);
-    color: var(--success-text);
+.alert-primary{
+    color : var(--info-dark);
+    background-color : var(--info-light);
 }
-
-.danger-alert {
-    background-color: var(--danger-bg);
-    color: var(--danger-text);
+.alert-warning{
+    color : var(--warning-dark);
+    background-color : var(--warning-light);
 }
-
-.warning-alert {
-    background-color: var(--warning-bg);
-    color: var(--warning-text);
+.alert-error{
+    color : var(--danger-dark);
+    background-color : var(--danger-light);
 }
-
-.fas{
-    margin-right : 5px;
+.alert-dark{
+    color : var(--primary-bg);
+    background-color : var(--primary-color-darker);
+}
+.alert-light{
+    color : var(--dark-color);
+    background-color : var(--primary-color);
+}
+.alert-light a{
+    color : var(--primary-bg);
+    font-weight: 700;
+}
+.alert-light a:hover{
+    color : var(--secondary-color);
 }
