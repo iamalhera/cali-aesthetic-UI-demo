@@ -1,6 +1,3 @@
-@import url('/src/components/utils.css');
-@import url('/src/components/badge/badge.css') ;
-
 .card{
     font-family: 'Montserrat', sans-serif;
     border-radius: 1rem;
