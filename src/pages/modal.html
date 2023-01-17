@@ -12,6 +12,7 @@
 </head>
 
 <body class="component-body">
+
     <nav class="flex-row flex-wrap full-width align-center pos-sticky">
         <a href="/index.html">
             <img class="nav-icon gutter-hz-sm gutter-vt-sm" src="/src/assets/images/oeba-ui.png" alt="Oeba UI" />
@@ -80,45 +81,57 @@
             <h3>MODAL</h3>
         </section>
         <section>
-            <p>Modals are triggered at a particular action and postioned on the top layer over anything else on the page to display important information and it removes the scroll from the page. User can close it manually.</p>
+            <p>Modals are triggered at a particular action and postioned on the top layer over anything else on the page
+                to display important information and it removes the scroll from the page. User can close it manually.
+            </p>
         </section>
         <section class="component-section">
-            <h4>Simple Modal</h5>
-                <p>You need to add class <span class="highlighted-text">img-responsive </span> to the image in order to
-                    make the image responsive and fit to its container height and width.
+            <h4>Pop Up Modal</h5>
+                <p>You can uses this modal example to show a pop-up decision dialog to your users especially when
+                    deleting an item and making sure if the user really wants to do that by double confirming. Use the
+                    code example below to use or customize according to your preference.
                 </p>
                 <div class="example-container">
                     <h6 class="gutter-hz-lg">Code Example : </h6>
                     <div class="component-container-row">
-                        <img src="../assets/images/img.png" alt="Example Image" class="img-responsive">
-                    </div>
-                    <div class="text-center">
-                        <iframe>
-                        </iframe>
-                    </div>
-                </div>
-        </section>
-        <section class="component-section">
-            <h4>Round Image</h5>
-                <p>You need to add class <span class="highlighted-text"> img-round </span>to the image in order to make the image round shaped.</p>
-                <div class="example-container">
-                    <h6 class="gutter-hz-lg">Code Example : </h6>
-                    <div class="component-container-row">
-                        <div class="round-img-container">
-                            <img src="../assets/images/avatar-img.jpg" alt="Example Image"
-                                class="img-responsive img-round">
+                        <div class="modal">
+                            <span class="modal-icon"><i class="fa fa-exclamation"></i></span>
+                            <span class="modal-dismiss"><i class="fa fa-times"></i></span>
+                            <p class="modal-info">Are you sure you want to delete this product?</p>
+                            <div class="modal-btns">
+                                <button class="proceed">Yes, I'm sure</button>
+                                <button class="cancel">No, cancel</button>
+                            </div>
                         </div>
                     </div>
+
+                    <h6 class="gutter-hz-lg">Live Demo : </h6>
+                    <div class="component-container-row">
+                        <button id="btn-open-example-modal" class="btn btn-primary-solid text-md-size">
+                            Launch Modal
+                        </button>
+                    </div>
                     <div class="text-center">
-                        <iframe>
+                        <iframe src="https://carbon.now.sh/embed/FqVKuNASeDsZOuKfmBzc"
+                            style="width: 680px; height: 320px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
                 </div>
         </section>
-
-
     </main>
+    <div class="modal-container" id="example-modal">
+        <div class="modal">
+            <span class="modal-icon"><i class="fa fa-exclamation"></i></span>
+            <span class="modal-dismiss" id="icon-modal-close-example"><i class="fa fa-times"></i></span>
+            <p class="modal-info">Are you sure you want to delete this product?</p>
+            <div class="modal-btns">
+                <button class="proceed">Yes, I'm sure</button>
+                <button id="btn-modal-close-example" class="cancel">No, cancel</button>
+            </div>
+        </div>
     </div>
+    <script src="/src/js/modal.js"></script>
 </body>
 
 </html>

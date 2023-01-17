@@ -1,0 +1,82 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none ;
+}
+
+.modal {
+    background-color: var(--primary-color-darkest);
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border-radius: 10px;
+    gap: 2rem;
+    position: relative;
+    height: 300px;
+}
+
+.modal-icon {
+    font-size: 3rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    width: 5rem;
+    text-align: center;
+}
+
+.modal-info{
+    color:var(--primary-color-dark);
+}
+
+.modal-dismiss {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.modal-dismiss:hover {
+    color: var(--primary-color-dark);
+}
+
+
+.modal-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.modal-btns .proceed {
+    border: none;
+    font-size: 1rem;
+    background-color: var(--danger-close);
+    padding: 0.5rem 1.2rem;
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.modal-btns .proceed:hover {
+    background-color: var(--danger-dark);
+}
+
+.modal-btns .cancel {
+    border: 1px solid var(--primary-color);
+    font-size: 1rem;
+    background-color : var(--primary-color-darkest);
+    padding: 0.5rem 1.2rem;
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.modal-btns .cancel:hover {
+    background: var(--primary-color-dark);
+    color: var(--primary-color);
+}
