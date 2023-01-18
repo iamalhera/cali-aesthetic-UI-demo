@@ -5,173 +5,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/components/list/list.css">
-    <title>Cali-Aesthetics UI</title>
-    <script src="https://kit.fontawesome.com/cb91afed1c.js" crossorigin="anonymous"></script>
+    <meta name="description" content="oebaUI is a component library with its own design guide" />
+    <title>List</title>
+    <link rel="icon" type="image/x-icon" href="/src/assets/images/oeba-ui.png">
+    <link rel="stylesheet" href="/src/styles/main.css">
 </head>
 
-<body>
-    <!------------------------ Header ----------------------------------->
-    <header>
-        <div class="header-container">
-            <div class="heading-header">
-                <h1> Cali-Aesthetics</h1>
-            </div>
-            <div class="header-links">
-                <a class="link-primary">Home</a>
-                <a class="link-primary">Docs</a>
-            </div>
+<body class="component-body">
+    <nav class="flex-row flex-wrap full-width align-center pos-sticky">
+        <a href="/index.html">
+            <img class="nav-icon gutter-hz-sm gutter-vt-sm" src="/src/assets/images/oeba-ui.png" alt="Oeba UI" />
+        </a>
+        <div class="flex-row gutter-left-auto">
+            <li class="list-style-none gutter-hz-sm text-md-size"><a href="/index.html">Home</a></li>
+            <li class="list-style-none gutter-hz-sm text-md-size"><a href="/src/pages/install.html">Installation</a>
+            </li>
+            <li class="list-style-none gutter-hz-sm text-md-size"><a
+                    href="/src/pages/documentation.html">Documentation</a></li>
+            <li class="list-style-none gutter-hz-sm text-md-size"><a
+                    href="https://github.com/iamalhera/oebaUI">Contribute
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
         </div>
-    </header>
-
-
-    <!-------------------------Side Bar ----------------------------->
-    <aside>
-        <h3>Components</h3>
-        <a href="/src/components/avatar/avatar.html">Avatar</a>
-        <a href="/src/components/alert/alert.html">Alert</a>
-        <a href="/src/components/badge/badge.html">Badge</a>
-        <a href="/src/components/button/button.html">Button</a>
-        <a href="/src/components/image/image.html">Images</a>
-        <a href="/src/components/cards/cards.html">Card</a>
-        <a href="/src/components/input/input.html">Input</a>
-        <a class="active-tab" href="#">List</a>
-        <a href="/src/components/navigation/navigation.html">Navigation</a>
-        <a href="/src/components/grid/grid.html">Grid</a>
+    </nav>
+    <aside class="aside-navbar">
+        <ul class="gutter-vt-sm">
+            <li>
+                <a class="aside-link " href="./avatar.html">Avatar</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./alert.html">Alert</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./badge.html">Badge</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./button.html">Button</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./card.html">Card</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./image.html">Image</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./input.html">Input</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./modal.html">Modal</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./rating.html">Rating</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./snackbar.html">Snackbar</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./grid.html">Grid</a>
+            </li>
+            <li class="active-tab">
+                <a class="aside-link" href="#">List</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./navigation.html">Navigation</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./text.html">Text</a>
+            </li>
+        </ul>
     </aside>
-
-
-
-    <main>
-
-        <!-- ------------ component : list ---------------- -->
-        <div class=" main-container padding-md">
-            <div class="headline">
-                <h1>List</h1>
-                <div class="description">
-                    Lists can be use for so many things. Such as Listing some items, Stacked list, Space list,
-                    Navigation, etc. We have different types of list as mentioned below. </div>
-            </div>
-
-            <section class="background-white">
-                <h3>Example of ordered list</h3>
-                <div class="section-description ">
-                    Ordered list can be used for listing items but in specific order. To use this component you can add
-                    these classes according to your needs Even You can reverse the order of ordered list, add reversed
-                    attribute to ol element.
+    <main class="docs-main-section padder-hz-xxxl">
+        <section class="text-center">
+            <h3>LIST</h3>
+        </section>
+        <section>
+            <p>Lists can be used to display a collection of items in ordered or un-ordered manners.</p>
+        </section>
+        <section class="component-section">
+            <h4>Ordered List</h5>
+                <p>Below are the different types of ordered list which can be used anywhere in your website where you
+                    want to display a collection of items in an ordered manner.</p>
+                <p>You can check the code below and copy the list component to add it in your web page.</p>
+                <div class="example-container">
+                    <h6 class="gutter-hz-lg">Code Example : </h6>
+                    <div class="component-container-row">
+                        <ol class="styled-list">
+                            <li>Cars in the list</li>
+                            <li>Bikes in the list</li>
+                            <li>Trains in the list</li>
+                        </ol>
+                        <ol class="styled-list" reversed>
+                            <li>Cars in the reversed list</li>
+                            <li>Bikes in the reversed list</li>
+                            <li>Trains in the reversed list</li>
+                        </ol>
+                        <ol class="styled-list list-lower-roman">
+                            <li>Cars in a list with lowercase roman</li>
+                            <li>Bikes in a list with lowercase roman</li>
+                            <li>Trains in a list with lowercase roman</li>
+                        </ol>
+                        <ol class="styled-list list-upper-roman">
+                            <li>Cars in a list with uppercase roman</li>
+                            <li>Bikes in a list with uppercase roman</li>
+                            <li>Trains in a list with uppercase roman</li>
+                        </ol>
+                        <ol class="styled-list list-lower-alpha">
+                            <li>Cars in a list with lowercase alphabet</li>
+                            <li>Bikes in a list with lowercase alphabet</li>
+                            <li>Trains in a list with lowercase alphabet</li>
+                        </ol>
+                        <ol class="styled-list list-upper-alpha">
+                            <li>Cars in a list uppercase alphabet</li>
+                            <li>Bikes in a list with uppercase alphabet</li>
+                            <li>Trains in a list with uppercase alphabet</li>
+                        </ol>
+                    </div>
+                    <div class="text-center">
+                        <iframe src="https://carbon.now.sh/embed/3TfJLqwEaWEboCP9FNSk"
+                            style="width: 680px; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
                 </div>
-                <div class="container-row ">
-                    <div>
-                        <ol class="text-size-lg type-number margin-left-sm">
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                        </ol>
-                    </div>
-
-                    <div>
-                        <ol class="text-size-lg type-A margin-left-sm">
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                        </ol>
-                    </div>
-
-                    <div>
-                        <ol class="text-size-lg type-a margin-left-sm">
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                        </ol>
-                    </div>
-
-                    <div>
-                        <ol class="text-size-lg upper-roman margin-left-sm">
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                        </ol>
-                    </div>
-
-                    <div>
-                        <ol class="text-size-lg lower-roman margin-left-sm">
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                        </ol>
-                    </div>
-
-                </div>
-            </section>
-            <section class="background-offwhite">
-                <h3>Examples of unordered list</h3>
-                <div class="section-description">
-                    We have also Unordered list. You can also list items using this. We mentioned some of list of types
-                    below.
-                </div>
-                <div class="container-row ">
-                    <div>
-                        <ul class="type-bullet text-size-lg margin-left-sm">
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
+        </section>
+        <section class="component-section">
+            <h4>Un-Ordered List</h5>
+                <p>Below are the examples of un-ordered list which can be used anywhere in your website where you want
+                    to display a collection of items in an un-ordered manner.</p>
+                <p>You can check the code below and copy the list component to add it in your web page.</p>
+                <div class="example-container">
+                    <h6 class="gutter-hz-lg">Code Example : </h6>
+                    <div class="component-container-row">
+                        <ul class="styled-list">
+                            <li>Cars in an un-ordered list with bullet</li>
+                            <li>Buses in an un-ordered list with bullet</li>
+                            <li>Trains in an un-ordered list with bullet</li>
+                        </ul>
+                        <ul class="styled-list list-square">
+                            <li>Cars in an un-ordered list with square</li>
+                            <li>Buses in an un-ordered list with square</li>
+                            <li>Trains in an un-ordered list with square</li>
+                        </ul>
+                        <ul class="styled-list list-circle">
+                            <li>Cars in an un-ordered list with circle</li>
+                            <li>Buses in an un-ordered list with circle</li>
+                            <li>Trains in an un-ordered list with circle</li>
+                        </ul>
+                        <ul class="styled-list list-reset">
+                            <li>Cars in an un-ordered list with circle</li>
+                            <li>Buses in an un-ordered list with circle</li>
+                            <li>Trains in an un-ordered list with circle</li>
+                        </ul>
+                        <ul class="styled-list list-inline">
+                            <li>Cars</li>
+                            <li>Buses</li>
+                            <li>Trains</li>
                         </ul>
                     </div>
-
-                    <div>
-                        <ul class="type-circle text-size-lg margin-left-sm">
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            </ol>
-                    </div>
-
-                    <div>
-                        <ul class="type-square text-size-lg margin-left-sm">
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            <li>Item </li>
-                            </ol>
+                    <div class="text-center">
+                        <iframe src="https://carbon.now.sh/embed/yCF25Y0DGwcV5r5149po"
+                            style="width: 680px; height: 400px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
                     </div>
                 </div>
-
-            </section>
-            <section class="background-white">
-                <h3>Example Of Stacked List (Notification Page)
-                </h3>
-                <div class="section-description ">
-                    Below is and example of stacked list which can be used to display notifications.
-                    You can add the desired element inside the li tag to stack it as list item
-                </div>
-                <div class="container-column">
-                    <li class="stacked-list-item">
-                        <img src="/src/assets/pull-ups.jpg" alt="time for pullups" class="list-img">
-                        <div class="list-item-content text-size-md">You Daily Quota of 15 Pull-Ups is left</div>
-                    </li>
-                    <li class="stacked-list-item">
-                        <img src="/src/assets/calisthenics_for_lifters_-_1000x500.jpg" alt="time for pushups"
-                            class="list-img">
-                        <div class="list-item-content text-size-md">You Daily Quota of 20 Push-Ups is left</div>
-                    </li>
-                    <li class="stacked-list-item">
-                        <img src="/src/assets/running.jpg" alt="time for running" class="list-img">
-                        <div class="list-item-content text-size-md">You Daily Quota of running 1 mile is left</div>
-                    </li>
-                </div>
-            </section>
-        </div>
-
-
+        </section>
     </main>
-
+    </div>
 </body>
 
 </html>
