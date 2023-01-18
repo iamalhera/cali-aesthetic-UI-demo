@@ -100,7 +100,7 @@ a:hover{
 .text-strike {
     text-decoration: line-through;
 }
-li,.list-style-none{
+.list-style-none{
     list-style:none;
 }
 

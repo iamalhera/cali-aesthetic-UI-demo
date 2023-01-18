@@ -15,6 +15,9 @@ section > p {
     overflow-y : scroll ;
     height: 85vh;
 }
+aside ul {
+    list-style: none;
+}
 .aside-navbar ul li  a{
     margin : 0.5rem 0rem ;
     padding : 0.75rem 5rem ;
