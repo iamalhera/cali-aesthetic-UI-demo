@@ -1,31 +1,26 @@
-@import url('/src/components/utils.css');
+.avatar{
 
-.container-avatar{
-    justify-content: space-evenly;
 }
-.avatar-lg{
-    width: 23rem;
-    height: 23rem;
-    /* margin-right: 10px; */
-}
-.avatar-md{
-    width: 18rem;
-    height: 18rem;
-    /* margin-right: 10px; */
-}
-.avatar-sm{
-    width: 12rem ;
-    height: 12rem ;
-}
-.img-rounded{
-    border-radius: 50%;
+.avatar-xl {
+    height:11rem;
+    width: 11rem;
 }
 
-.text-avatar{
-    background-color : var(--ca-primary-color-lighter) ;
-    display : flex ;
-    align-items: center;
-    justify-content: center;
-    color : var(--white-color) ;
-    font-size : 2rem ;
+.avatar-lg {
+    height:9rem;
+    width: 9rem;
+}
+
+.avatar-md {
+    height:7rem;
+    width: 7rem;
+}
+
+.avatar-sm {
+    height:5rem;
+    width: 5rem;
+}
+.avatar-xs {
+    height:3rem;
+    width: 3rem;
 }

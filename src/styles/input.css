@@ -1,63 +1,43 @@
-@import url('/src/components/utils.css');
-
-.container-signup{
-    border : 2px solid var(--border-color);
-    border-radius: 0.4rem;
-    display: flex;
-    justify-content: center;
-}
-.form{
+.form {
     display: flex;
     flex-direction: column;
-    gap : 1rem ;
-    padding : 1.5rem ;
+    gap: 1rem;
+    background-color : white;
 }
-.input-field {
-    border: 1px solid var(--border-color);
-    border-radius: 5px ;
-    padding : 5px ; 
-    width: 100%;
-    font-size: 2.0rem;
+.contact-form > *{
+    line-height: 2.5rem ;
 }
-.btn-primary{
-    width : 100% ;
+.login-form div input{
+    line-height: 2.5rem ;
 }
-.form-signup{
-    padding : 1.5rem ;
-    border :2px solid var(--ca-primary-color-lighter);
-    background-color: var(--white-color);
-    margin : 1rem ;
-    width : 350px ;
+.form-field {
+    border: 1px solid var(--primary-color-darker);
     border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
+    width: 99%;
+    font-size: 1rem;
+    padding-left : 0.5rem ;
+}
 
+.form-field:focus {
+    outline-color: var(--secondary-color);
 }
-.form-header{
-    font-size : 2.0rem ;
-    text-align: center;
-    margin-bottom : 1.5rem ;
+
+.contact-form, .login-form {
+    border: 2px solid var(--secondary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(146, 140, 140, 0.5);
 }
-.input-row{
-    width : 100% ;
-    margin-bottom : 1rem ;
+
+.form-error-message {
+    color: var(--bb-danger-light-color);
+    font-size: 0.8rem;
 }
-.input-label{
-    display : block ;
-    font-size : 2.0rem ;
-    margin-bottom : 8px ;
+
+#email-error {
+    display: none;
 }
-.required{
-    color : var(--danger-text);
-}
-.checkbox-text{
-    font-size : 1.8rem ;
-    padding-left : 5px ;
-}
-.form-footer{
-    font-size : 1.4rem ;
-    text-align: center;
-}
-.new-ac-link{
-    color : var(--black-color);
-    font-weight : bold;
+
+#password-error {
+    display: none;
 }

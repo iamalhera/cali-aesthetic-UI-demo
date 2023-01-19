@@ -1,0 +1,11 @@
+.main-section-right img{
+    width : 35rem;
+    height : 30rem ;
+}
+.main-section-left .main-section-button > a{
+    padding-left : 4.5rem ;
+    padding-right : 4.5rem ;
+}
+.color-sec{
+    color : var(--secondary-color);
+}

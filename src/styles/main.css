@@ -1,18 +1,78 @@
-/* font-family */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); /*  Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+
+@import "./generalStyles.css";  
+@import "./typography.css";
+
+@import "./index.css";
+@import "./documentation.css";
+@import "./install.css";
+
+@import "./alert.css";
+@import "./avatar.css";
+@import "./badge.css";
+@import "./button.css";
+@import "./card.css";
+@import "./grid.css";
+@import "./image.css";
+@import "./input.css";
+@import "./list.css";
+@import "./modal.css";
+@import "./nav.css";
+@import "./navigation.css";
+@import "./rating.css";
+@import "./snackbar.css";
 
 
-/* CSS Files */
-@import url('/src/components/design-guide.css');
-@import url('/src/components/typography.css');
-@import url('/src/components/utils.css');
-@import url('/src/components/avatar/avatar.css');
-@import url('/src/components/alert/alert.css');
-@import url('/src/components/badge/badge.css');
-@import url('/src/components/button/button.css');
-@import url('/src/components/cards/cards.css');
-@import url('/src/components/image/image.css');
-@import url('/src/components/input/input.css');
-@import url('/src/components/list/list.css');
-@import url('/src/components/navigation/navigation.css');
-@import url('/src/components/grid/grid.css');
+*,
+::before,
+::after{
+    box-sizing : border-box;
+    margin : 0px;
+    padding : 0px;
+}
+body{
+    font-family : Poppins,sans-serif;
+    min-height : 100vh;
+    background-color : var(--primary-bg);
+    color : var(--primary-color);
+    position : relative;
+}
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+  }
+
+html{
+    font-size : 100%;
+    scroll-behavior : smooth;
+}
+:root{
+    --primary-bg : #000000;
+    --primary-color : #ffffff;
+    --primary-color-dark : #c6bfbf;
+    --primary-color-darker : rgb(95, 95, 95);
+    --primary-color-darkest : #171717;
+    --secondary-color :  #FFAA33;
+    --tertiary-color : #4381C1;
+
+    --shadow-dark: #4c4c4b0d;
+    --shadow-light:#EBEBEB;
+
+    --success-light: #a8f0c6;
+    --success-dark: #0b7035;
+    --info-light: #88C2DF;
+    --info-dark: #14455e;
+    --warning-light: #FACC14;
+    --warning-dark: #5e4b00;
+    --danger-light: #ff615c;
+    --danger-dark: #530300;
+    --danger-close : #ff0000 ;
+
+    --dark-color: #393734;
+    --dark-secondary-color: #534f49;
+    --inactive-color: #cacaca;
+    --backdrop-color: rgba(80,78,78,.5);
+    
+}

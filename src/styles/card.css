@@ -1,0 +1,157 @@
+.card {
+    border-radius:10px;
+    box-shadow: 0px 1px 10px rgba(146, 140, 140, 0.5);
+}
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    gap:0.5rem;   
+}
+
+.card-image-horizontal {
+    width: 17rem;
+    height: auto;
+    border:0;
+    padding: 1rem;
+    position: relative;
+}
+
+.card-image-horizontal img {
+    border-radius: 10px;
+}
+
+.horizontal-card-badge {
+    position:absolute;
+    top: 1.3rem;
+    left: 0.3rem;
+    font-size: 0.7rem;
+}
+
+.card-horizontal-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    gap: 1rem; 
+    padding: 0.5rem 0;
+}
+
+.card-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    gap:2rem;
+    margin: 1rem 0;
+}
+
+
+.card-vertical-thin {
+    width: 17rem;
+}
+
+.card-vertical-thick {
+    width: 25rem;
+}
+
+.card-image-vertical {
+    width: 15rem;
+    height: 14rem;
+    border-radius: 10px;
+    position: relative;
+    padding: 1rem;
+}
+
+.card-image-vertical img {
+    border-radius: 10px;
+}
+
+.vertical-card-badge {
+    position:absolute;
+    top: 1.3rem;
+    right: 0.3rem;
+    font-size: 0.7rem;
+}
+
+.card-title {
+    font-size:1.2rem;
+    font-weight: 700;;
+}
+
+/* video card */
+.card-video-container {
+    width: 400px;
+}
+.card-video {
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 1px 5px 10px rgba(231, 225, 225, 0.5);
+}
+ 
+.card-video-cover {
+    height: 230px;
+    display:flex;
+    grid-area: 1/1/1/1;
+    opacity: 0.85;
+}
+
+.card-video-cover img {
+    border-radius: 10px;
+}
+
+.card-video-caption {
+    color: var(--bb-light-color);
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    grid-area: 1/1/1/1;
+    padding: 0 1rem;
+    position:relative;
+}
+
+.video-caption-link {
+    color: var(--bb-light-color);
+    font-size:1.2rem;
+    font-weight:700;
+    text-decoration:underline;
+}
+
+.video-caption-link:hover {
+    color: var(--bb-light-color);
+    opacity: 0.9;
+} 
+
+/* text only card */
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    flex-wrap: wrap;
+    width: 25rem;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.card-text-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.card-text-close {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+

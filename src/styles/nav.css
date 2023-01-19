@@ -1,0 +1,8 @@
+nav{
+    background-color: var(--primary-bg);
+    z-index: 1;
+}
+.nav-icon{
+    width : 5rem;
+    height : 5rem;
+}
