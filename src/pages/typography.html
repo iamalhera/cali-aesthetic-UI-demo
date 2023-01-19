@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="oebaUI is a component library with its own design guide" />
-    <title>Button</title>
+    <title>Typography</title>
     <link rel="icon" type="image/x-icon" href="/src/assets/images/oeba-ui.png">
     <link rel="stylesheet" href="/src/styles/main.css">
 </head>
@@ -40,8 +40,8 @@
             <li>
                 <a class="aside-link " href="./badge.html">Badge</a>
             </li>
-            <li class="active-tab">
-                <a class="aside-link " href="#">Button</a>
+            <li>
+                <a class="aside-link " href="./button.html">Button</a>
             </li>
             <li>
                 <a class="aside-link " href="./card.html">Card</a>
@@ -70,73 +70,86 @@
             <li>
                 <a class="aside-link" href="./navigation.html">Navigation</a>
             </li>
-            <li>
-                <a class="aside-link" href="./typography.html">Typography</a>
+            <li class="active-tab">
+                <a class="aside-link" href="#">Typography</a>
             </li>
         </ul>
     </aside>
     <main class="docs-main-section padder-hz-xxxl">
         <section class="text-center">
-            <h3>BUTTON</h3>
+            <h3>TYPOGRAPHY</h3>
         </section>
         <section>
-            <p>Buttons are used to perform actions on user's click. You can use solid buttons, floating buttons, icon
-                button based on different scenarios.</p>
+            <p>You can write different types of text using the text utilities in different contexts.</p>
         </section>
         <section class="component-section">
-            <h4>Primary and Secondary Buttons</h5>
-                <p>There are different variations of primary and secondary buttons that can be used in different
-                    context.</p>
-                <p>In order to attract user's attention you can use primary button which is also called as call to
-                    action.
+            <h4>Headings</h5>
+                <p>You can use h1, h2, h3, h4, h5 h6 tags to use headings or you can also style your text like a heading
+                    using the corresponding class <span class="highlighted-text">h1, h2, h3, h4, h5 and h6</span>.
                 </p>
                 <div class="example-container">
                     <h6 class="gutter-hz-lg">Code Example : </h6>
-                    <div class="component-container-row">
-                        <button class="btn btn-primary-solid text-rg-size">Primary</button>
-                        <button class="btn btn-primary-outline text-rg-size">Outline</button>
-                        <button class="btn btn-success text-rg-size">Success</button>
-                        <button class="btn btn-delete text-rg-size">Delete</button>
-                        <button class="btn btn-light text-rg-size">Light</button>
+                    <div class="component-container-column">
+                        <p class="h1">Example of h1 element</p>
+                        <h2>Example of h2 element</h2>
+                        <h3>Example of h3 element</h3>
+                        <h4>Example of h4 element</h4>
+                        <h5>Example of h5 element</h5>
+                        <h6>Example of h6 element</h6>
                     </div>
                     <div class="text-center">
-                        <iframe src="https://carbon.now.sh/embed/IceQsuNdxEtrHt7oXgTK"
-                            style="width: 680px; height: 350px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
+                        <iframe>
                         </iframe>
                     </div>
                 </div>
         </section>
         <section class="component-section">
-            <h4>Other variants of Button</h5>
-                <p>There are few other variants of button like button with an icon, tertiary button , disabled
-                    button, floating button, link or icon button.</p>
-                <p>You can check the below code for adding a button component in your web application based on your
-                    need.</p>
+            <h4>Paragraph</h5>
+                <p>You can use p tag or add .p class to add a paragraph. Additionaly if you want to change the size of
+                    the paragraph text, you can add the corresponsing class <span class="highlighted-text">
+                        text-sm-size, text-rg-size, text-lg-size </span> and if you want to change the weight of the
+                    paragraph text, you can add the correspondig class <span class="highlighted-text">
+                        text-light-weight, text-regular-weight, text-bold-weight.</span></p>
                 <div class="example-container">
                     <h6 class="gutter-hz-lg">Code Example : </h6>
-                    <div class="component-container-row">
-                        <button class="btn btn-primary-solid text-rg-size">
-                            <span class="padder-hz-xs">
-                                <i class="fas fa-save"></i>
-                            </span> Save
-                        </button>
-                        <button class="btn btn-tertiary text-rg-size">Tertiary</button>
-                        <button class="btn btn-disabled">Disabled</button>
-                        <a href="#" class="btn btn-float"><i class="fas fa-arrow-up"></i></a>
-                        <a class="btn text-underline text-md-size">Link</a>
+                    <div class="component-container-column">
+                        <div class="p">Example of paragraph with class</div>
+                        <p>Example of paragraph element</p>
+                        <p class="text-sm-size">Example of small size text</p>
+                        <p class="text-rg-size">Example of regular size text</p>
+                        <p class="text-lg-size">Example of large size text</p>
+                        <p class="text-light-weight">Example of light weight text</p>
+                        <p class="text-regular-weight">Example of regular weight text</p>
+                        <p class="text-bold-weight">Example of bold text</p>
                     </div>
                     <div class="text-center">
-                        <iframe src="https://carbon.now.sh/embed/pyfoLr6VyNn7yVGxNept"
-                            style="width: 680px; height: 364px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
+                        <iframe>
                         </iframe>
                     </div>
+                </div>
+        </section>
+        <section class="component-section">
+            <h4>Text Alignment</h5>
+                <p>You can align the text to left, right or center by adding a class like <span
+                        class="highlighted-text"> text-left, text-right, text-center </span> to an element with text.
+                </p>
+                <div class="example-container">
+                    <h6 class="gutter-hz-lg">Code Example : </h6>
+                    <div class="component-container-column">
+                        <p class="text-left">Example of left aligned text </p>
+                        <p class="text-right">Example of right aligned text </p>
+                        <p class="text-center">Example of center aligned text </p>
+                    </div>
+                    <div class="text-center">
+                        <iframe>
+                        </iframe>
+                    </div>
+                </div>
         </section>
 
     </main>
     </div>
-    <script src="/src/js/oebaui.js"></script>
+    <script src="/src/js/alert.js"></script>
 </body>
 
 </html>
