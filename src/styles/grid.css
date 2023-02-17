@@ -1,19 +1,23 @@
 .grid-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    display : grid ;
+    grid-template-columns : 1fr 1fr ;
+    gap : 10px ;
 }
-.grid-item{
-height : 100% ;
-padding : 5px;
-}
-
-.grid-img{
-height : 100% ;
-border-radius: 1rem ;
-}
-
 .grid-3{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr ;
+    display : grid ;
+    grid-template-columns : 1fr 1fr 1fr;
+    gap : 10px ;
+}
+.grid-sidemenu{
+    display : grid ;
+    grid-template-columns: 1fr 3fr;
+    gap : 10px ;
+}
+.grid-item {
+    background-color: var(--info-dark);
+    color: white;
+    text-align: center;
+    height : 40vh ;
+    padding : 5rem ;
+    font-size : 2rem ;
 }
