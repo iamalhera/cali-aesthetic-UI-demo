@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="oebaUI is a component library with its own design guide" />
+    <title>Rating</title>
+    <link rel="icon" type="image/x-icon" href="/src/assets/images/oeba-ui.png">
+    <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+
+<body class="component-body">
+    <nav class="flex-row flex-wrap full-width align-center pos-sticky">
+        <a href="/index.html">
+            <img class="nav-icon gutter-hz-sm gutter-vt-sm" src="/src/assets/images/oeba-ui.png" alt="Oeba UI" />
+        </a>
+        <div class="flex-row gutter-left-auto">
+            <li class="list-style-none gutter-hz-sm text-md-size"><a href="/index.html">Home</a></li>
+            <li class="list-style-none gutter-hz-sm text-md-size"><a href="/src/pages/install.html">Installation</a>
+            </li>
+            <li class="list-style-none gutter-hz-sm text-md-size"><a
+                    href="/src/pages/documentation.html">Documentation</a></li>
+            <li class="list-style-none gutter-hz-sm text-md-size"><a
+                    href="https://github.com/iamalhera/oebaUI">Contribute
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </div>
+    </nav>
+    <aside class="aside-navbar">
+        <ul class="gutter-vt-sm">
+            <li>
+                <a class="aside-link " href="./avatar.html">Avatar</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./alert.html">Alert</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./badge.html">Badge</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./button.html">Button</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./card.html">Card</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./image.html">Image</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./input.html">Input</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./modal.html">Modal</a>
+            </li>
+            <li class="active-tab">
+                <a class="aside-link" href="#">Rating</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./snackbar.html">Snackbar</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./grid.html">Grid</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./list.html">List</a>
+            </li>
+            <li>
+                <a class="aside-link" href="">Navigation</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./typography.html">Typography</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./slider.html">Slider</a>
+            </li>
+        </ul>
+    </aside>
+    <main class="docs-main-section padder-hz-xxxl">
+        <section class="text-center">
+            <h3>RATING</h3>
+        </section>
+        <section>
+            <p>A simple rating component used for rating objects, items as per your use case. The component has active/inactive stars which are toggled on click.</p>
+        </section>
+        <section class="component-section">
+            <h4>Rating Component</h5>
+                <div class="example-container">
+                    <h6 class="gutter-hz-lg">Code Example : </h6>
+                    <div class="component-container-column text-center">
+                        <div class="rating-container">
+                            <span id="star-1" class="star"><i class="fa fa-star"></i></span>
+                            <span id="star-2" class="star"><i class="fa fa-star"></i></span>
+                            <span id="star-3" class="star"><i class="fa fa-star"></i></span>
+                            <span id="star-4" class="star"><i class="fa fa-star"></i></span>
+                            <span id="star-5" class="star"><i class="fa fa-star"></i></span>
+                        </div>
+                        <div class="flex-row align-self-middle"><button id="rating-reset" class="btn btn-primary-solid text-md-size">Reset</button></div>
+                    </div>
+                    <div class="text-center">
+                        <iframe>
+                        </iframe>
+                    </div>
+                </div>
+        </section>
+    </main>
+    </div>
+    <script src="/src/js/rating.js"></script>
+</body>
+
+</html>
