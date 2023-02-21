@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="oebaUI is a component library with its own design guide" />
+    <title>Snackbar</title>
+    <link rel="icon" type="image/x-icon" href="/src/assets/images/oeba-ui.png">
+    <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+
+<body class="component-body">
+    <nav class="flex-row flex-wrap full-width align-center pos-sticky">
+        <a href="/index.html">
+            <img class="nav-icon gutter-hz-sm gutter-vt-sm" src="/src/assets/images/oeba-ui.png" alt="Oeba UI" />
+        </a>
+        <div class="flex-row gutter-left-auto">
+            <li class="list-style-none gutter-hz-sm text-md-size"><a href="/index.html">Home</a></li>
+            <li class="list-style-none gutter-hz-sm text-md-size"><a href="/src/pages/install.html">Installation</a>
+            </li>
+            <li class="list-style-none gutter-hz-sm text-md-size"><a
+                    href="/src/pages/documentation.html">Documentation</a></li>
+            <li class="list-style-none gutter-hz-sm text-md-size"><a
+                    href="https://github.com/iamalhera/oebaUI">Contribute
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </div>
+    </nav>
+    <aside class="aside-navbar">
+        <ul class="gutter-vt-sm">
+            <li>
+                <a class="aside-link " href="./avatar.html">Avatar</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./alert.html">Alert</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./badge.html">Badge</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./button.html">Button</a>
+            </li>
+            <li>
+                <a class="aside-link " href="./card.html">Card</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./image.html">Image</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./input.html">Input</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./modal.html">Modal</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./rating.html">Rating</a>
+            </li>
+            <li class="active-tab">
+                <a class="aside-link" href="#">Snackbar</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./grid.html">Grid</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./list.html">List</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./navigation.html">Navigation</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./typography.html">Typography</a>
+            </li>
+            <li>
+                <a class="aside-link" href="./slider.html">Slider</a>
+            </li>
+        </ul>
+    </aside>
+    <main class="docs-main-section padder-hz-xxxl">
+        <section class="text-center">
+            <h3>SNACKBAR</h3>
+        </section>
+        <section>
+            <p>Snackbar can be use for show small amount of message. Such as feedback message.</p>
+        </section>
+        <section class="component-section">
+            <h4>Snackbar Component</h5>
+                <p>We have a basic Snackbar example. You can see it by clicking on Live demo button.</p>
+                <div class="example-container">
+                    <h6 class="gutter-hz-lg">Code Example : </h6>
+                    <div class="component-container-column text-center">
+                        <!-- <div class="snackbar text-md-size gutter-left-auto secondary-snackbar">Successfully Added
+                            <i class="fas fa-times-circle component-icons"></i>
+                        </div> -->
+                        <div>
+                            <button class="btn btn-primary-solid" id="btn-snackbar">Live Demo</button>
+                        </div>
+                            <div class="snackbar text-md-size primary-snackbar" id="primary-snackbar">
+                            Please
+                            try again letter <i class="fas fa-times-circle component-icons"></i>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <iframe>
+                        </iframe>
+                    </div>
+                </div>
+        </section>
+    </main>
+    </div>
+    <script src="/src/js/snackbar.js"></script>
+</body>
+
+</html>
