@@ -1,30 +1,35 @@
-.nav-1{
-    width : 100% ;
-}
-.nav{
-    width : 95% ;
+.navigation{
     display: flex;
-    flex-wrap : wrap ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--shadow-light);
+    padding: .6em 1em;
+}
+
+.nav-logo{
+    font-size: 2.6rem;
+    color: var(--primary-bg);
+}
+.navigation .nav-right{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-logo{
-    color : var(--ca-primary-color);
+.nav-right{
+   width : 20% ;
 }
-.input-search{
-    padding : 5px 3rem ;
-    border-radius : 5px ;
-    border: 1px solid black ;
-    font-size : 1.5rem;
-}
-.badge-container{
-    color : var(--ca-primary-color);
+@media screen and (max-width: 867px){
+    .navigation .nav-right {
+        display: none;
+         
+    }
 }
 
-.nav-right{
-display : flex ;
-flex-direction : row ;
-justify-content : space-between ;
-align-items: center;
-gap: 3rem ;
+.nav-right i{
+    color : var(--secondary-color);
+}
+.nav-center  input{
+    height : 2rem ;
+    width : 18rem ;
+
 }
