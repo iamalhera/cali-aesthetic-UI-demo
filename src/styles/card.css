@@ -9,7 +9,7 @@
     justify-content: flex-start;
     align-content: center;
     width: 100%;
-    gap:0.5rem;   
+    gap:1rem;   
 }
 
 .card-image-horizontal {
@@ -24,7 +24,7 @@
     border-radius: 10px;
 }
 
-.horizontal-card-badge {
+/* .horizontal-card-badge {
     position:absolute;
     top: 1.3rem;
     left: 0.3rem;
@@ -39,7 +39,7 @@
     width: 300px;
     gap: 1rem; 
     padding: 0.5rem 0;
-}
+} */
 
 .card-vertical {
     display: flex;
@@ -61,7 +61,7 @@
 }
 
 .card-image-vertical {
-    width: 15rem;
+    width: 100%;
     height: 14rem;
     border-radius: 10px;
     position: relative;

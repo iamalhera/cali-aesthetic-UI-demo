@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="oebaUI is a component library with its own design guide" />
-    <title>Snackbar</title>
+    <title>Slider</title>
     <link rel="icon" type="image/x-icon" href="/src/assets/images/oeba-ui.png">
     <link rel="stylesheet" href="/src/styles/main.css">
 </head>
@@ -58,8 +58,8 @@
             <li>
                 <a class="aside-link" href="./rating.html">Rating</a>
             </li>
-            <li class="active-tab">
-                <a class="aside-link" href="#">Snackbar</a>
+            <li>
+                <a class="aside-link" href="./snackbar.html">Snackbar</a>
             </li>
             <li>
                 <a class="aside-link" href="./grid.html">Grid</a>
@@ -68,46 +68,36 @@
                 <a class="aside-link" href="./list.html">List</a>
             </li>
             <li>
-                <a class="aside-link" href="./navigation.html">Navigation</a>
+                <a class="aside-link" href="">Navigation</a>
             </li>
             <li>
                 <a class="aside-link" href="./typography.html">Typography</a>
             </li>
-            <li>
-                <a class="aside-link" href="./slider.html">Slider</a>
+            <li class="active-tab">
+                <a class="aside-link" href="#">Slider</a>
             </li>
         </ul>
     </aside>
     <main class="docs-main-section padder-hz-xxxl">
         <section class="text-center">
-            <h3>SNACKBAR</h3>
+            <h3>SLIDER</h3>
         </section>
         <section>
-            <p>Snackbar can be use for show small amount of message. Such as feedback message.</p>
+            <p>Slider are used in eCommerce website to select price between two price range.</p>
         </section>
         <section class="component-section">
-            <h4>Snackbar Component</h5>
-                <p>We have a basic Snackbar example. You can see it by clicking on Live demo button.</p>
+            <h4>Basic Slider</h5>
+                <p>It id a basic slider. You have to just add <span class="highlighted-text">type="range"</span>in input
+                    tag.
+                </p>
                 <div class="example-container">
                     <h6 class="gutter-hz-lg">Code Example : </h6>
-                    <div class="component-container-column text-center">
-                        <div>
-                            <button class="btn btn-primary-solid" id="btn-snackbar">Live Demo</button>
-                        </div>
-                        <div class="snackbar text-md-size primary-snackbar" id="primary-snackbar">
-                            Please
-                            try again letter <i class="fas fa-times-circle component-icons"></i>
-                        </div>
+                    <div class="component-container-row">
+                        <input type="range" min="50" max="100" step="10" class="input input-slider">
                     </div>
                     <div class="text-center">
-                        <h6 class="gutter-hz-lg">HTML </h6>
-                        <iframe src="https://carbon.now.sh/embed/T7qpDa0MdJYxR1QL388K"
-                            style="width: 680px; height: 165px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                        <h6 class="gutter-hz-lg">JAVASCRIPT </h6>
-                        <iframe src="https://carbon.now.sh/embed/awN4LrOb41Bkurh7Pgip"
-                            style="width: 680px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                        <iframe src="https://carbon.now.sh/embed/s45KUhRZMyQT6gBbzEDD"
+                            style="width: 680px; height: 93px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
                     </div>
@@ -115,7 +105,6 @@
         </section>
     </main>
     </div>
-    <script src="/src/js/snackbar.js"></script>
 </body>
 
 </html>
